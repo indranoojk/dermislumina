@@ -15,12 +15,14 @@ const Navbar = () => {
   return (
     <>
         {/* Navbar Starts here */}
-        <nav className='flex lg:fixed lg:w-full lg:h-24 lg:top-0 lg:z-[9999] items-center justify-between flex-wrap bg-[#02030a] p-0 pr-10 lg:p-2 mt-0'>
+        <nav className='flex lg:fixed lg:w-full lg:h-24 lg:top-0 lg:z-[9999] items-center justify-between flex-wrap bg-[#02030a] p-0 pr-10 lg:p-2 mt-0 mb-20'>
             {/* Logo and Nav title */}
-            <div className="flex items-center lg:h-16 flex-shrink-0 text-white lg:mr-8">
-                {/* <img className='w-28 block ' src={logo} alt="" />  */}
-                <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-xl tracking-tight hidden lg:block">Dermaluminous</span>
-            </div>
+            <Link to='/'>
+                <div className="flex items-center lg:h-16 flex-shrink-0 text-white lg:mr-8">
+                    {/* <img className='w-28 block ' src={logo} alt="" />  */}
+                    <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-3xl tracking-tight hidden lg:block">Dermaluminous</span>
+                </div>
+            </Link>
 
             {/* Menu hamburger button for mobile version */}
             <div className="block lg:hidden">
@@ -37,9 +39,9 @@ const Navbar = () => {
 
                     <Link to="/about" className={`block ${location.pathname === "/about"? "underline underline-offset-8 text-purple-500": ""} mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4`} onClick={() => setIsOpen(!isOpen)}>About</Link>
 
-                    <Link to="/skincare" className={`block ${location.pathname === "/skincare"? "underline underline-offset-8 text-purple-500": ""} mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4`} onClick={() => setIsOpen(!isOpen)}>Skin care</Link>
+                    <Link to="/skincare" className={`block ${location.pathname === "/skincare"? "underline underline-offset-8 text-purple-500": ""} mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4`} onClick={() => setIsOpen(!isOpen)}>Assessment</Link>
 
-                    <Link to="/products" className={`block ${location.pathname === "/products"? "underline underline-offset-8 text-purple-500": ""} mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4`} onClick={() => setIsOpen(!isOpen)}>Products</Link>
+                    <Link to="/remedies" className={`block ${location.pathname === "/remedies"? "underline underline-offset-8 text-purple-500": ""} mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4`} onClick={() => setIsOpen(!isOpen)}>Remedies</Link>
                 </div>
             </div>
 
