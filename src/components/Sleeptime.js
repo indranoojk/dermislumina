@@ -1,7 +1,10 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
+import useScrollToTop from './useScrollToTop';
 
 const Sleeptime = () => {
+
+    useScrollToTop();
 
     const [selectedSleepTime, setselectedSleepTime] = useState(null);
 

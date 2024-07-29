@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import useScrollToTop from './useScrollToTop';
 
 function SkinConcerns() {
+  
+  useScrollToTop();
+
   const [concerns, setConcerns] = useState([]);
   const [error, setError] = useState(null);
+
 
   const options = [
     { value: 'acne', label: 'Acne or breakouts' },

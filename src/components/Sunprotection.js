@@ -1,7 +1,10 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
+import useScrollToTop from './useScrollToTop';
 
 const Sunprotection = () => {
+
+    useScrollToTop();
 
     const [selectedSunProtection, setselectedSunProtection] = useState(null);
 

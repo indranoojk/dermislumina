@@ -1,13 +1,10 @@
 import React from 'react'
 import Age from './Age';
+import useScrollToTop from './useScrollToTop';
 
 const Assessment = () => {
 
-    // const [selectedOption, setSelectedOption] = useState(null);
-
-    // const handleOptionClick = (option) => {
-    //     setSelectedOption(option);
-    // }
+  useScrollToTop();
 
   return (
     <>

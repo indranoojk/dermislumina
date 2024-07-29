@@ -7,11 +7,22 @@ import darkSpot from '../utilities/Images/dark spots.jpg'
 import redness from '../utilities/Images/redness.jpg'
 import wrinkles from '../utilities/Images/wrinkles.jpg'
 import dryskin from '../utilities/Images/dry skin.png'
+import useScrollToTop from './useScrollToTop'
 // import SkinCareAssessment from './SkinCareAssessment'
 
 const Home = () => {
+
+    useScrollToTop();
+
   return (
     <>
+
+        <div className="fixed top-[115px] right-5 z-10">
+            <Link to='/skincare'>
+                <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded shadow-lg">Take Assessment</button>
+            </Link>
+        </div>
+
         <div className="grid grid-cols-2">
             {/* row 1 */}
             <div className="pl-5">
