@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='grid grid-cols-2 lg:grid-cols-3 grid-rows-3 lg:grid-rows-subgrid bg-[#e6e3e3] text-black pb-4'>
             <div className="flex items-center flex-shrink-0 text-white lg:mr-8 col-span-2">
                 {/* <img className='w-16 lg:w-20 block ' src={logo} alt="" />  */}
-                <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-sm lg:text-4xl pt-10 pl-10 tracking-tight text-black">Dermaluminous</span>
+                <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-sm lg:text-4xl pt-10 pl-10 tracking-tight text-black">Dermislumina</span>
             </div>
 
             <div className='-mt-6 ml-4 lg:ml-0 lg:col-start-2 lg:mt-4 text-center'>

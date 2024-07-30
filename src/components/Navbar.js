@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link to='/'>
                 <div className="flex items-center lg:h-16 flex-shrink-0 text-white lg:mr-8">
                     {/* <img className='w-28 block ' src={logo} alt="" />  */}
-                    <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-3xl tracking-tight hidden lg:block">Dermaluminous</span>
+                    <span style={{fontFamily: "'Cinzel', serif"}} className="font-semibold italic text-3xl tracking-tight hidden lg:block">Dermislumina</span>
                 </div>
             </Link>
 
