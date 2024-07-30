@@ -1,5 +1,4 @@
 import React from 'react'
-// import Assessment from './Assessment'
 import arrowUp from '../utilities/Images/icons8-arrow-64-up.png'
 import arrowDown from '../utilities/Images/icons8-arrow-64-down.png'
 import { Link } from 'react-router-dom'
@@ -8,7 +7,6 @@ import redness from '../utilities/Images/redness.jpg'
 import wrinkles from '../utilities/Images/wrinkles.jpg'
 import dryskin from '../utilities/Images/dry skin.png'
 import useScrollToTop from './useScrollToTop'
-// import SkinCareAssessment from './SkinCareAssessment'
 
 const Home = () => {
 
@@ -49,17 +47,6 @@ const Home = () => {
             </div>
    
         </div>
-
-
-            {/* <div className="cloud m-10 p-12 relative">
-            <Link to='/honey'>
-                <img className='w-full h-32 rounded-full relative cursor-pointer shadow-lg shadow-black' src="https://images.pexels.com/photos/24291553/pexels-photo-24291553/free-photo-of-wrinkled-gray-surface.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="" />
-                <h2 className="text-6xl drop-shadow-2xl shadow-black absolute top-0 pt-20 pl-64 text-yellow-100 hover:text-yellow-300" style={{fontFamily: "'Dancing Script', cursive"}}> <span className='text-yellow-400'>Honey</span> is a natural cleanser! <span className='pl-40 text-2xl text-teal-200 underline underline-offset-8 hover:text-white'>Check out</span></h2>
-            </Link>
-            </div> */}
-
-
-
 
         <div className="grid grid-cols-5 grid-rows-2 m-20">
             {/* Grid 1 */}
@@ -103,11 +90,7 @@ const Home = () => {
                 <h2 className="text-4xl" style={{fontFamily: "'Dancing Script', cursive"}}>Redness</h2>
             </div>
             
-        </div>
-
-
-        {/* <SkinCareAssessment /> */}
-      
+        </div>     
       
     </>
   )

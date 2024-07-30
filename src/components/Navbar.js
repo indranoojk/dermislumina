@@ -8,10 +8,6 @@ const Navbar = () => {
     
     let location = useLocation();
 
-    // if (location.pathname === "/contract"  || location.pathname === "/portal" || location.pathname === "/projectEdit" || location.pathname === "/changePass") {
-    //     return null;
-    // }
-
   return (
     <>
         {/* Navbar Starts here */}

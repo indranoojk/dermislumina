@@ -18,8 +18,6 @@ function SkinCareAssessment() {
   };
 
   const getSkinCareRecommendations = () => {
-    // Implement logic to generate skin care recommendations based on ageRange, skinType, and skinConcern.
-    // This could involve using a predefined set of rules, accessing an API, or using a machine learning model.
 
     // Example:
     if (ageRange === '13-18' && skinType === 'Oily' && skinConcern === 'Acne') {
