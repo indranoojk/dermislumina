@@ -12,9 +12,9 @@ const Recommendations = () => {
     if (selectedAge === 'below 18' && selectedConcern === 'acne') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Cleanse with a gentle foaming cleanser containing salicylic acid to remove oil and impurities.
@@ -30,7 +30,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -60,9 +60,9 @@ const Recommendations = () => {
     else if (selectedAge === 'below 18' && selectedConcern === 'fineLines') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, hydrating cleanser to remove impurities without stripping the skin.
@@ -77,7 +77,7 @@ const Recommendations = () => {
                 <strong>SPF:</strong> Apply a broad-spectrum SPF 30 or higher to protect against premature aging.
               </li>
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -107,9 +107,9 @@ const Recommendations = () => {
     else if (selectedAge === 'below 18' && selectedConcern === 'darkSpots') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, hydrating cleanser to remove impurities.
@@ -121,7 +121,7 @@ const Recommendations = () => {
                 <strong className='text-xl'>Moisturizer:</strong> Use a lightweight, oil-free moisturizer with SPF 30 or higher.
               </li>
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -151,9 +151,9 @@ const Recommendations = () => {
     else if (selectedAge === 'below 18' && selectedConcern === 'dryness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser to avoid stripping the skin.
@@ -168,7 +168,7 @@ const Recommendations = () => {
                 <strong>SPF:</strong> Apply a broad-spectrum SPF 30 or higher.
               </li>
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -198,9 +198,9 @@ const Recommendations = () => {
     else if (selectedAge === 'below 18' && selectedConcern === 'redness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser without harsh sulfates.
@@ -215,7 +215,7 @@ const Recommendations = () => {
                 <strong>SPF:</strong> Apply a broad-spectrum SPF 30 or higher.
               </li>
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -245,9 +245,9 @@ const Recommendations = () => {
     else if (selectedAge === '18-24' && selectedConcern === 'acne') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, oil-free cleanser with salicylic acid to remove impurities.
@@ -265,7 +265,7 @@ const Recommendations = () => {
                 <strong>SPF:</strong> Apply a broad-spectrum SPF 30 or higher.
               </li>
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -295,9 +295,9 @@ const Recommendations = () => {
     else if (selectedAge === '18-24' && selectedConcern === 'fineLines') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, hydrating cleanser to remove impurities.
@@ -313,7 +313,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -343,9 +343,9 @@ const Recommendations = () => {
     else if (selectedAge === '18-24' && selectedConcern === 'darkSpots') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, hydrating cleanser to remove impurities.
@@ -360,7 +360,7 @@ const Recommendations = () => {
                 <strong>SPF:</strong> Use a lightweight, oil-free moisturizer with SPF 30 or higher.
               </li>
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -389,9 +389,9 @@ const Recommendations = () => {
     else if (selectedAge === '18-24' && selectedConcern === 'dryness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser to avoid stripping the skin.
@@ -410,7 +410,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -440,9 +440,9 @@ const Recommendations = () => {
     else if (selectedAge === '18-24' && selectedConcern === 'redness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser without sulfates or fragrances.
@@ -459,7 +459,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -489,9 +489,9 @@ const Recommendations = () => {
     else if (selectedAge === '25-34' && selectedConcern === 'acne') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, oil-free cleanser containing salicylic acid to remove excess sebum and impurities.
@@ -510,7 +510,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -540,9 +540,9 @@ const Recommendations = () => {
     else if (selectedAge === '25-34' && selectedConcern === 'fineLines') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, hydrating cleanser to remove impurities without stripping the skin.
@@ -564,7 +564,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -597,9 +597,9 @@ const Recommendations = () => {
     else if (selectedAge === '25-34' && selectedConcern === 'darkSpots') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser to avoid stripping the skin's natural oils.
@@ -618,7 +618,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -648,9 +648,9 @@ const Recommendations = () => {
     else if (selectedAge === '25-34' && selectedConcern === 'dryness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser to avoid stripping the skin's natural oils.
@@ -669,7 +669,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -699,9 +699,9 @@ const Recommendations = () => {
     else if (selectedAge === '25-34' && selectedConcern === 'redness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser without sulfates or fragrances.
@@ -720,7 +720,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -750,9 +750,9 @@ const Recommendations = () => {
     else if (selectedAge === '35-44' && selectedConcern === 'acne') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, oil-free cleanser containing salicylic acid to remove excess sebum.
@@ -771,7 +771,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -801,9 +801,9 @@ const Recommendations = () => {
     else if (selectedAge === '35-44' && selectedConcern === 'fineLines') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, hydrating cleanser to remove impurities.
@@ -822,7 +822,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -855,9 +855,9 @@ const Recommendations = () => {
     else if (selectedAge === '35-44' && selectedConcern === 'darkSpots') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, brightening cleanser to remove impurities.
@@ -873,7 +873,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -906,9 +906,9 @@ const Recommendations = () => {
     else if (selectedAge === '35-44' && selectedConcern === 'dryness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser to avoid stripping the skin's natural oils.
@@ -927,7 +927,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -957,9 +957,9 @@ const Recommendations = () => {
     else if (selectedAge === '35-44' && selectedConcern === 'redness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser without sulfates or fragrances.
@@ -978,7 +978,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -1008,9 +1008,9 @@ const Recommendations = () => {
     else if (selectedAge === 'above 45' && selectedConcern === 'acne') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, oil-free cleanser containing salicylic acid to remove excess sebum.
@@ -1029,7 +1029,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -1059,9 +1059,9 @@ const Recommendations = () => {
     else if (selectedAge === 'above 45' && selectedConcern === 'fineLines') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, hydrating cleanser to remove impurities.
@@ -1080,7 +1080,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -1113,9 +1113,9 @@ const Recommendations = () => {
     else if (selectedAge === 'above 45' && selectedConcern === 'darkSpots') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, brightening cleanser to remove impurities.
@@ -1131,7 +1131,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -1164,9 +1164,9 @@ const Recommendations = () => {
     else if (selectedAge === 'above 45' && selectedConcern === 'dryness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser to avoid stripping the skin's natural oils.
@@ -1185,7 +1185,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -1215,9 +1215,9 @@ const Recommendations = () => {
     else if (selectedAge === 'above 45' && selectedConcern === 'redness') {
       return (
         <div className="p-7">
-          <h2 className='text-4xl font-bold'>Skincare Routine:</h2>
+          <h2 className='text-4xl font-bold font-serif'>Skincare Routine:</h2>
           <div className="p-3">
-            <h2 className='text-2xl font-bold'>Morning Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Morning Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Use a gentle, creamy cleanser without sulfates or fragrances.
@@ -1236,7 +1236,7 @@ const Recommendations = () => {
               </li>
               
             </ol>
-            <h2 className='text-2xl font-bold'>Night Routine:</h2>
+            <h2 className='text-2xl font-bold font-serif'>Night Routine:</h2>
             <ol className='list-decimal list-inside text-lg p-3'>
               <li>
                 <strong className='text-xl'>Cleanser:</strong> Repeat the morning cleansing routine.
@@ -1274,40 +1274,47 @@ const Recommendations = () => {
         <h1 className="text-5xl font-bold underline underline-offset-8" style={{ fontFamily: "'Cinzel', serif" }}>Recommended Skin Care:</h1>
       </div>
 
-      <div className=" m-16 rounded-3xl text-center text-white" style={{ backgroundImage: `url(${'https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1280'})` }}>
+      <div className=" m-16 rounded-3xl text-center text-white" style={{ backgroundImage: `url(${'https://images.pexels.com/photos/3733925/pexels-photo-3733925.jpeg?auto=compress&cs=tinysrgb&w=1280'})` }}>
 
         <div className="">
           <p>{handleClickResults()}</p>   <br />
         </div>
       </div>
 
-      <div className="m-16 ">
-        <h1 className="text-3xl text-green-600 font-bold ">TRENDING SKINCARE ROUNTINE THAT CAN BE USED ON DAILY BASIS 😊:-</h1>
-        <div className="m-5 p-5 rounded-3xl bg-yellow-500">
-          <h2 className="text-2xl font-bold">Morning Routine:</h2>
-          <p className="p-5 text-lg">
-            <ul className='list-decimal list-inside'>
-              <li>Cleanser:- Gentle foaming cleanser with a low pH.</li>
-              <li>Toner:- Hydrating toner with hyaluronic acid.</li>
-              <li>Essence:- Hydrating essence with fermented ingredients (e.g., galactomyces).</li>
-              <li>Serum:- Vitamin C or niacinamide serum.</li>
-              <li>Moisturizer:- Lightweight moisturizer with ceramides.</li>
-              <li>Sunscreen:- Broad-spectrum SPF 50+.</li>
-            </ul>
-          </p>
-        </div>
-        <div className="m-5 p-5 rounded-3xl text-white bg-blue-900">
-          <h2 className="text-2xl font-bold">Night Routine:</h2>
-          <p className="p-5 text-lg">
-            <ul className='list-decimal list-inside'>
-              <li>Cleanser:- Oil cleanser (double cleanse with a foam cleanser if needed).</li>
-              <li>Toner:- Hydrating toner.</li>
-              <li>Essence:- Hydrating essence.</li>
-              <li>Serum:- Treatment serum based on skin concern (e.g., retinoid, peptides).</li>
-              <li>Sheet Mask:- 2-3 times a week for added hydration and treatment.</li>
-              <li>Moisturizer:- Rich moisturizer or sleeping pack.</li>
-            </ul>
-          </p>
+      <div className="m-16">
+        <h1 className="text-3xl m-4 text-green-600 font-bold" style={{fontFamily: "'Dancing Script', cursive"}}>TRENDING SKINCARE ROUNTINE THAT CAN BE USED ON DAILY BASIS 😊:-</h1>
+        <div className="grid grid-rows-2 grid-cols-2 gap-x-4 gap-y-4">
+          <div className="p-5 rounded-3xl bg-yellow-200 row-start-1">
+            <h2 className="text-2xl font-bold font-serif">Morning Routine:</h2>
+            <p className="p-5 text-lg">
+              <ul className='list-decimal list-inside'>
+                <li>Cleanser:- Gentle foaming cleanser with a low pH.</li>
+                <li>Toner:- Hydrating toner with hyaluronic acid.</li>
+                <li>Essence:- Hydrating essence with fermented ingredients (e.g., galactomyces).</li>
+                <li>Serum:- Vitamin C or niacinamide serum.</li>
+                <li>Moisturizer:- Lightweight moisturizer with ceramides.</li>
+                <li>Sunscreen:- Broad-spectrum SPF 50+.</li>
+              </ul>
+            </p>
+          </div>
+          <div className="p-5 rounded-3xl text-white bg-blue-400 row-start-2">
+            <h2 className="text-2xl font-bold font-serif">Night Routine:</h2>
+            <p className="p-5 text-lg">
+              <ul className='list-decimal list-inside'>
+                <li>Cleanser:- Oil cleanser (double cleanse with a foam cleanser if needed).</li>
+                <li>Toner:- Hydrating toner.</li>
+                <li>Essence:- Hydrating essence.</li>
+                <li>Serum:- Treatment serum based on skin concern (e.g., retinoid, peptides).</li>
+                <li>Sheet Mask:- 2-3 times a week for added hydration and treatment.</li>
+                <li>Moisturizer:- Rich moisturizer or sleeping pack.</li>
+              </ul>
+            </p>
+          </div>
+          <div className="row-span-2">
+            <img className='rounded-3xl object-cover h-full' src="https://i.pinimg.com/564x/4b/76/7f/4b767f54348cf084efa7cb26f534cd32.jpg" alt="" />
+          </div>
+            {/* <img className='rounded-3xl' src="https://images.pexels.com/photos/10536278/pexels-photo-10536278.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="" />
+          </div> */}
         </div>
 
         <div className="text-center p-10">

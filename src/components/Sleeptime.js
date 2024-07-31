@@ -19,7 +19,7 @@ const Sleeptime = () => {
       <div className="m-20 pt-8">
         <h1 className="text-5xl p-4 mb-6 font-medium font-serif">Skin care Assessment</h1>
             <div className="text-center p-8 rounded-lg mb-10 relative">
-              <img className='w-full h-[510px] object-cover rounded-3xl blur-[1px]' src="https://images.pexels.com/photos/6476116/pexels-photo-6476116.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="" />
+              <img className='w-full h-[510px] object-cover rounded-3xl blur-[1px]' src="https://images.pexels.com/photos/4041279/pexels-photo-4041279.jpeg?auto=compress&cs=tinysrgb&w=1280" alt="" />
                 <div className="w-96 grid gap-5 p-2 ml-[33%] top-16 rounded-2xl absolute">
                   <h3 className='text-4xl font-bold text-white'>How much sleep do you get on average?</h3>
                     <Link to='/skinconcerns' className={`px-2 py-3 bg-[#eb9ce5] cursor-pointer rounded-md text-xl hover:bg-[#fffefe] ${selectedSleepTime === 'Less than 5 hours'? 'bg-white text-purple-600' : ''}`} value="Less than 5 hours" name='sleeptime' onClick={() => handleOptionClick('Less than 5 hours')}><button>Less than 5 hours</button></Link>
