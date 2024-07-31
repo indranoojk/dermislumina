@@ -30,6 +30,9 @@ const Footer = () => {
                   <li className='p-2'>
                     <Link to='/remedies' className={`block ${location.pathname === "/remedies"? "underline underline-offset-8 text-purple-700": ""} mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4`}>Remedies</Link>
                   </li>
+                  <li className='p-2'>
+                    <Link to='/faceDetection' className={`block ${location.pathname === "/faceDetection"? "underline underline-offset-8 text-purple-700": ""} mt-4 lg:inline-block lg:mt-0 text-black hover:text-yellow-500 mr-4`}>Face Detection</Link>
+                  </li>
               </ul>
             </div>
 

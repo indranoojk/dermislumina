@@ -15,7 +15,7 @@ import Remedies from './components/Remedies';
 import SkinConcerns from './components/SkinConcerns';
 import About from './components/About';
 import WithLoading from './components/WithLoading';
-// import Chatbot from './components/Chatbot';
+import Chatbot from './components/Chatbot';
 
 function App() {
 
@@ -42,8 +42,8 @@ function App() {
             </WithLoading>} 
           />
           <Route exact path='/skinconcerns' element={<SkinConcerns />} />
+          <Route exact path='/chatbot' element={<Chatbot />} />
         </Routes>
-        {/* <Chatbot /> */}
         <Footer />
       </Router>
     </>

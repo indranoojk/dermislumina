@@ -7,6 +7,7 @@ import redness from '../utilities/Images/redness.jpg'
 import wrinkles from '../utilities/Images/wrinkles.jpg'
 import dryskin from '../utilities/Images/dry skin.png'
 import useScrollToTop from './useScrollToTop'
+import Chatbot from './Chatbot'
 
 const Home = () => {
 
@@ -88,9 +89,11 @@ const Home = () => {
             <div className="row-start-2 col-start-5 text-center pt-16">
                 <img className='pl-[95px]' src={arrowUp} alt="" />
                 <h2 className="text-4xl" style={{fontFamily: "'Dancing Script', cursive"}}>Redness</h2>
-            </div>
-            
-        </div>     
+            </div>            
+        </div>
+
+
+        <Chatbot />
       
     </>
   )
